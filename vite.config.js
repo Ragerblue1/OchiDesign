@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base:"/OchiDesign/",
   plugins: [react()],
-  base:"/vite-react-deploy"
+  
 })
